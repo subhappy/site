@@ -52,7 +52,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 108,
+    "uniqCompNum": 111,
     "versionPublish": "5.9.17",
     "screenshot": "screenshot.png",
     "global_footer_custom": "",
@@ -899,7 +899,7 @@
     "timebestilling.html": {
       "settings": {
         "title": "Timebestilling",
-        "order": "3",
+        "order": "4",
         "meta_descr": "Bestill Digital Hjemmehjelp."
       },
       "components": [
@@ -1490,7 +1490,7 @@
     "om_meg.html": {
       "settings": {
         "title": "Om meg",
-        "order": "2"
+        "order": "3"
       },
       "components": [
         {
@@ -2103,7 +2103,7 @@
     "tjenester.html": {
       "settings": {
         "title": "Tjenester",
-        "order": "1"
+        "order": "2"
       },
       "components": [
         {
