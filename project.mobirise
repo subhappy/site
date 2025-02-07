@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "tjenester.html",
     "theme": {
       "name": "curem4",
       "title": "CureM4",
@@ -1507,7 +1507,7 @@
       "settings": {
         "title": "Tjenester",
         "order": "4",
-        "meta_descr": "Hvilke tjenester tilbyr Digital Hjemmehjelp?"
+        "meta_descr": "Hvilke tjenester tilbyr Digital Hjemmehjelp?\nHjelp med mobil, Internett, datamaskiner, smarttv, lyd og bilde, og alt annet som er elektronisk."
       },
       "components": [
         {
