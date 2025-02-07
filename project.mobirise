@@ -68,14 +68,22 @@
     "lazyLoad": true,
     "publishChangesOnly": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "gdpr": {
-      "colorText": "#a7a7a7",
-      "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "Ved å fortsette, godtar du at dette nettstedet lagrer informasjonskapsler på datamaskinen din.\nDisse informasjonskapslene brukes til å samle informasjon om hvordan du samhandler med nettstedet vårt og lar oss huske deg. Vi bruker denne informasjonen for å forbedre og tilpasse søkeopplevelsen din og for analyser og beregninger om våre besøkende både på dette nettstedet og andre medier. For å finne ut mer om informasjonskapslene vi bruker, se vår <a href='policy.html'>personvernpolicy </a> og <a href='terms.html'>forretningsvilkår</a>."
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#ffffff",
+      "colorButton": "#006680",
+      "rejectColor": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacityOverlay": "0",
+      "bgOpacity": "100",
+      "text": "Vi bruker (dessverre) cookies for å kunne dukke opp i søkemotorer som Google. \n\nLes mer i vår <a href='privacy.html'>Personvernspolicy</a>.",
+      "textButton": "OK",
+      "rejectText": "REJECT"
     },
-    "cookiesAlert": false,
-    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SJRY4X4N1S\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-SJRY4X4N1S');\n</script>"
+    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SJRY4X4N1S\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-SJRY4X4N1S');\n</script>",
+    "gdpr": false
   },
   "pages": {
     "index.html": {
