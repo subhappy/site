@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "privacy.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "curem4",
       "title": "CureM4",
@@ -63,7 +63,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "http://digitalhjemmehjelp.no",
-    "global_header_custom": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SJRY4X4N1S\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-SJRY4X4N1S');\n</script>",
+    "global_header_custom": "",
     "cssOptimize": true,
     "lazyLoad": true,
     "publishChangesOnly": false,
@@ -82,7 +82,7 @@
       "textButton": "OK",
       "rejectText": "REJECT"
     },
-    "google-analytics": "",
+    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SJRY4X4N1S\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-SJRY4X4N1S');\n</script>",
     "gdpr": false
   },
   "pages": {
@@ -90,7 +90,7 @@
       "settings": {
         "main": true,
         "title": "Digital Hjemmehjelp",
-        "meta_descr": "Digital Hjemmehjelp - Din personlige teknologi-ekspert i Nittedal",
+        "meta_descr": "Digital Hjemmehjelp - Din personlige teknologi-ekspert i Nittedal. Datahjelp hjemme hos deg selv. Hjelp til mobil, smarttelefon, smarttv. Oppsett og feilsøking av PC, nettbrett og elektronikk.\nSliter du med å få det nye nettbrettet til å fungere? Krøller wifi-routeren seg? Eller ønsker du bare å lære mer om hvordan du kan bruke teknologi i hverdagen?\nDigital Hjemmehjelp i Nittedal er løsningen for deg som ønsker personlig og tålmodig hjelp med dagens teknologi - rett hjemme hos deg selv!\nVi hjelper deg med:\nOppsett og feilsøking av PC, nettbrett og smarttelefoner\nInstallasjon og bruk av programmer og apper\nWifi-nettverk og internettproblemer\nSmart-hjem løsninger\nBackup og sikkerhet\nVeiledning i bruk av sosiale medier\nNettbank og offentlige digitale tjenester\nIngen problemer er for små, og ingen spørsmål er dumme. Vi forklarer alt på en enkel og forståelig måte, i ditt tempo.\nHvorfor velge Digital Hjemmehjelp?\nPersonlig service i ditt eget hjem\nFast timepris - ingen skjulte kostnader\nErfaren og tålmodig ekspert.\nDekker hele Nittedal og omegn.\nRing oss i dag på 46 52 92 10 og få en enklere digital hverdag!\nDigital Hjemmehjelp - Vi gjør teknologi enkelt.",
         "header_custom": "",
         "footer_custom": "<script type=\"text/javascript\">\n(function($){\n  $.fn.extend({\n    rotaterator: function(options) {\n\n      var defaults = {\n        fadeSpeed: 1000,\n        pauseSpeed: 3000,\n        child:null\n      };\n\n      var options = $.extend(defaults, options);\n\n      return this.each(function() {\n        var o =options;\n        var obj = $(this);\n        var items = $(obj.children(), obj);\n        items.each(function() {$(this).hide();})\n        if(!o.child){var next = $(obj).children(':first');\n        }else{var next = o.child;\n        }\n        $(next).fadeIn(o.fadeSpeed, function() {\n          $(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {\n            var next = $(this).next();\n            if (next.length == 0){\n              next = $(obj).children(':first');\n            }\n            $(obj).rotaterator({child : next, fadeSpeed : o.fadeSpeed, pauseSpeed : o.pauseSpeed});\n          })\n        });\n      });\n    }\n  });\n})(jQuery);\n\n$(document).ready(function() {\n  $('#rotate').rotaterator({fadeSpeed:1000, pauseSpeed:3000});\n});\n</script>",
         "html_before": ""
