@@ -63,7 +63,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "http://digitalhjemmehjelp.no",
-    "global_header_custom": "",
+    "global_header_custom": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SJRY4X4N1S\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-SJRY4X4N1S');\n</script>",
     "cssOptimize": true,
     "lazyLoad": true,
     "publishChangesOnly": false,
@@ -82,7 +82,7 @@
       "textButton": "OK",
       "rejectText": "REJECT"
     },
-    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SJRY4X4N1S\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-SJRY4X4N1S');\n</script>",
+    "google-analytics": "",
     "gdpr": false
   },
   "pages": {
